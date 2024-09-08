@@ -8,7 +8,7 @@ producer = KafkaProducer(bootstrap_servers=bootstrap_servers)
 
 # Set up DHT sensor
 sensor = Adafruit_DHT.DHT11
-pin = 4
+pin = 21
 
 # Read temperature and humidity data
 humidity, temperature = Adafruit_DHT.read_retry(sensor, pin)
