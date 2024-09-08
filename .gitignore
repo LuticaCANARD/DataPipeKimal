@@ -1,10 +1,10 @@
-./webside/node_modules
+./webside/node_modules/*
 
 # Output
-./webside/.output
-./webside/.vercel
-./webside/.svelte-kit
-./webside/build
+./webside/.output/*
+./webside/.vercel/*
+./webside/.svelte-kit/*
+./webside/build/*
 
 # OS
 ./webside/.DS_Store
